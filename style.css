@@ -1,0 +1,136 @@
+/* CSS styles */
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*Logo størrelse/placering/margin*/
+.logo {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    margin-bottom: -50px;
+   
+}
+/*Nav-bar placering/størrelse/font */
+nav ul {
+    list-style-type: none;
+    display: flex; 
+    justify-content: center; 
+}
+
+nav ul li {
+    margin: 0 50px; 
+    margin-bottom: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, sans-serif
+}
+
+/*Styling af artikler. Billedestørrelse, tekst, font, flexbox. */
+.articles {
+    display: flex; /
+    
+  
+}
+.articles p {
+    margin-bottom: -05px; 
+}
+/* Fjerner blå farve/understreg for link */
+.articles a {
+    text-decoration: none; 
+    color: black;
+}
+
+.Overskrift {
+    font-family: Arial, sans-serif;
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+.articles > div {
+    margin: 0 90px; 
+}
+
+.articles img {
+    width: 300px; 
+    height: auto; 
+    margin-bottom: -20px;
+}
+
+.Underskrift {
+    font-family: 'arial', sans-serif; 
+    font-size: 14px; 
+    color: #000000; 
+    font-weight: bold;
+}
+
+.Tekst {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo-copy {
+    width: 400px; 
+    height: auto;
+    margin-right: 200px; 
+}
+
+/* CSS for nav-bar */
+nav ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 60px;
+    margin-top: 80px;
+}
+
+nav ul li:last-child {
+    margin-right: 40px;
+}
+
+/* Jeg har dublikeret billedfilerne, for at kunne style (samme billede) artikel i forhold til forsiden, forskelligt*/
+.artikel1-copy {
+    width: 500px; 
+    height: auto; 
+    float: right;
+    margin-right: 60px;
+    margin-top: 50px;
+}
+
+.Overskrift1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+
+.Underskrift1 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+.Tekst1 {
+    float: center; 
+    width: 70%; 
+    margin-left: 17px; 
+    text-align: justify;
+}
